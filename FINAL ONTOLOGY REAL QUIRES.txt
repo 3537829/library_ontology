@@ -1,0 +1,119 @@
+Here are several **SPARQL queries** to extract information from the **Library Management System ontology** using real-world data.
+
+---
+
+### 🔍 1. **List all books with their authors and genres**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?title ?authorName ?genreName WHERE {
+  ?book a lib:Book ;
+        lib:title ?title ;
+        lib:hasAuthor ?author ;
+        lib:hasGenre ?genre .
+  ?author lib:name ?authorName .
+  ?genre lib:name ?genreName .
+}
+ORDER BY ?title
+```
+
+---
+
+### 📘 2. **Find all books published by 'Penguin Books'**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?title WHERE {
+  ?book a lib:Book ;
+        lib:title ?title ;
+        lib:publishedBy ?publisher .
+  ?publisher lib:name "Penguin Books" .
+}
+```
+
+---
+
+### 👤 3. **Get all members who borrowed books and their borrow dates**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?memberName ?email ?borrowDate WHERE {
+  ?borrow a lib:BorrowTransaction ;
+          lib:borrowedBy ?member ;
+          lib:borrowDate ?borrowDate .
+  ?member lib:name ?memberName ;
+          lib:email ?email .
+}
+ORDER BY ?borrowDate
+```
+
+---
+
+### 📅 4. **List borrow transactions processed by 'Librarian1 Name'**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?memberName ?borrowDate ?returnDate WHERE {
+  ?txn a lib:BorrowTransaction ;
+       lib:processedBy ?librarian ;
+       lib:borrowedBy ?member ;
+       lib:borrowDate ?borrowDate ;
+       lib:returnDate ?returnDate .
+  ?librarian lib:name "Librarian1 Name" .
+  ?member lib:name ?memberName .
+}
+```
+
+---
+
+### 📚 5. **List all books in the library**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?title WHERE {
+  lib:library1 lib:containsBook ?book .
+  ?book lib:title ?title .
+}
+ORDER BY ?title
+```
+
+---
+
+### 📈 6. **Count how many books each author has written**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+
+SELECT ?authorName (COUNT(?book) AS ?bookCount) WHERE {
+  ?book a lib:Book ;
+        lib:hasAuthor ?author .
+  ?author lib:name ?authorName .
+}
+GROUP BY ?authorName
+ORDER BY DESC(?bookCount)
+```
+
+---
+
+### 📖 7. **Get books published after 2010**
+
+```sparql
+PREFIX lib: <http://example.org/library#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?title ?year WHERE {
+  ?book a lib:Book ;
+        lib:title ?title ;
+        lib:publishYear ?year .
+  FILTER(xsd:gYear(?year) > "2010"^^xsd:gYear)
+}
+```
+
+---
+
+Would you like a **SPARQL endpoint setup guide** or more queries (e.g., by genre, late returns, etc.)?

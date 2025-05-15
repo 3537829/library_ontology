@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:lib="http://example.org/library#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/library#borrow33">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member14"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-07</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-21</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#library1">
+    <rdf:type rdf:resource="http://example.org/library#Library"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book1"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book2"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book3"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book4"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book5"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book6"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book7"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book8"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book9"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book10"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book11"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book12"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book13"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book14"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book15"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book16"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book17"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book18"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book19"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book20"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book21"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book22"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book23"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book24"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book25"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book26"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book27"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book28"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book29"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book30"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book31"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book32"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book33"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book34"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book35"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book36"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book37"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book38"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book39"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book40"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book41"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book42"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book43"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book44"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book45"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book46"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book47"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book48"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book49"/>
+    <lib:containsBook rdf:resource="http://example.org/library#book50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author36">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Malcolm Gladwell</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author42">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Alex Michaelides</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author8">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>J.R.R. Tolkien</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author25">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Khaled Hosseini</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book44">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Normal People</lib:title>
+    <lib:ISBN>978-0-00-1043</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2016</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author44"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow41">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member2"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-23</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-06</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#processedBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <rdfs:range rdf:resource="http://example.org/library#Librarian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher3">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Simon &amp; Schuster</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book18">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Animal Farm</lib:title>
+    <lib:ISBN>978-0-00-1017</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author18"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow20">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member1"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-10</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-24</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member7">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member7 Name</lib:name>
+    <lib:email>member7@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow45">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member6"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-31</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-14</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author37">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>John Green</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrowDate">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book46">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Circe</lib:title>
+    <lib:ISBN>978-0-00-1045</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author1"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book35">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Midnight Library</lib:title>
+    <lib:ISBN>978-0-00-1034</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author35"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book49">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Power of Habit</lib:title>
+    <lib:ISBN>978-0-00-1048</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author4"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow17">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member18"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-04</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-18</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow5">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member6"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-11</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-25</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book45">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Little Fires Everywhere</lib:title>
+    <lib:ISBN>978-0-00-1044</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author45"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow59">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member20"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-28</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-12</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member15">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member15 Name</lib:name>
+    <lib:email>member15@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow4">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member5"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-09</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-23</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow26">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member7"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-22</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-07</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow25">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member6"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-20</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author11">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>James Joyce</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book4">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Great Gatsby</lib:title>
+    <lib:ISBN>978-0-00-1003</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author4"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book29">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Kite Runner</lib:title>
+    <lib:ISBN>978-0-00-1028</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author29"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book38">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>It</lib:title>
+    <lib:ISBN>978-0-00-1037</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author38"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book10">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Lord of the Rings</lib:title>
+    <lib:ISBN>978-0-00-1009</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1994</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author10"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow47">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member8"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-04</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book3">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Pride and Prejudice</lib:title>
+    <lib:ISBN>978-0-00-1002</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author3"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book28">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Don Quixote</lib:title>
+    <lib:ISBN>978-0-00-1027</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author28"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book15">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Wuthering Heights</lib:title>
+    <lib:ISBN>978-0-00-1014</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author15"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book6">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>War and Peace</lib:title>
+    <lib:ISBN>978-0-00-1005</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2006</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author6"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book11">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Crime and Punishment</lib:title>
+    <lib:ISBN>978-0-00-1010</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author11"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book12">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Brothers Karamazov</lib:title>
+    <lib:ISBN>978-0-00-1011</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author12"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow30">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member11"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-01</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-15</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book50">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Subtle Art of Not Giving a F*ck</lib:title>
+    <lib:ISBN>978-0-00-1049</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author5"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book48">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Atomic Habits</lib:title>
+    <lib:ISBN>978-0-00-1047</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1963</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author3"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book27">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Old Man and the Sea</lib:title>
+    <lib:ISBN>978-0-00-1026</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author27"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book32">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Sapiens</lib:title>
+    <lib:ISBN>978-0-00-1031</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2001</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author32"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow42">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member3"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-25</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-08</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book14">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Jane Eyre</lib:title>
+    <lib:ISBN>978-0-00-1013</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author14"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow55">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member16"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-20</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-04</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member12">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member12 Name</lib:name>
+    <lib:email>member12@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow44">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member5"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-29</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-12</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow39">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member20"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-19</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-02</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book30">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Life of Pi</lib:title>
+    <lib:ISBN>978-0-00-1029</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1976</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author30"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow52">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member13"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-14</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-28</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow11">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member12"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-23</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-06</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#hasGenre">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://example.org/library#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#BorrowTransaction">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book9">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Brave New World</lib:title>
+    <lib:ISBN>978-0-00-1008</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author9"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#returnDate">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book17">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Fahrenheit 451</lib:title>
+    <lib:ISBN>978-0-00-1016</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author17"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book20">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Les Misérables</lib:title>
+    <lib:ISBN>978-0-00-1019</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author20"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author27">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Markus Zusak</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#librarian1">
+    <rdf:type rdf:resource="http://example.org/library#Librarian"/>
+    <lib:name>Librarian1 Name</lib:name>
+    <lib:email>librarian1@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow27">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member8"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-24</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-09</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author18">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Bram Stoker</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow37">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member18"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-15</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-29</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member6">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member6 Name</lib:name>
+    <lib:email>member6@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow7">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member8"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-15</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-29</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book16">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Picture of Dorian Gray</lib:title>
+    <lib:ISBN>978-0-00-1015</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author16"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow10">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member11"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-21</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-04</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow31">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member12"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-03</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-17</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author10">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Fyodor Dostoevsky</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author35">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Walter Isaacson</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#name">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Author"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book37">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Shining</lib:title>
+    <lib:ISBN>978-0-00-1036</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author37"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow24">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member5"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-18</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-03</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author24">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Miguel de Cervantes</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre9">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Psychology</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book2">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>1984</lib:title>
+    <lib:ISBN>978-0-00-1001</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author2"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow3">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member4"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-07</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-21</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow40">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member1"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-21</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-04</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book47">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Silent Patient</lib:title>
+    <lib:ISBN>978-0-00-1046</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1958</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author2"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book40">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Steve Jobs</lib:title>
+    <lib:ISBN>978-0-00-1039</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author40"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book13">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Ulysses</lib:title>
+    <lib:ISBN>978-0-00-1012</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author13"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book24">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Divine Comedy</lib:title>
+    <lib:ISBN>978-0-00-1023</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1985</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author24"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author28">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Yuval Noah Harari</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#librarian4">
+    <rdf:type rdf:resource="http://example.org/library#Librarian"/>
+    <lib:name>Librarian4 Name</lib:name>
+    <lib:email>librarian4@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book41">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Outliers</lib:title>
+    <lib:ISBN>978-0-00-1040</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1995</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author41"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book34">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Educated</lib:title>
+    <lib:ISBN>978-0-00-1033</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2002</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author34"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author1">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Harper Lee</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author4">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>F. Scott Fitzgerald</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author15">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Ray Bradbury</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book36">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Dune</lib:title>
+    <lib:ISBN>978-0-00-1035</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author36"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher4"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author12">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Charlotte Brontë</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow34">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member15"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-09</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-23</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow12">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member13"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-25</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-08</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow49">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member10"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-08</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-22</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow6">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member7"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-13</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-27</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow29">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member10"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-28</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-13</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow48">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member9"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-06</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-20</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#librarian2">
+    <rdf:type rdf:resource="http://example.org/library#Librarian"/>
+    <lib:name>Librarian2 Name</lib:name>
+    <lib:email>librarian2@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book8">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Hobbit</lib:title>
+    <lib:ISBN>978-0-00-1007</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author8"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher8"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member4">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member4 Name</lib:name>
+    <lib:email>member4@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author33">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Stephen King</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author43">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>James Clear</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#hasAuthor">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://example.org/library#Author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher8">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Random House</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member18">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member18 Name</lib:name>
+    <lib:email>member18@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book19">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Great Expectations</lib:title>
+    <lib:ISBN>978-0-00-1018</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2007</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author19"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow13">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member14"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-27</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-10</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book31">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Book Thief</lib:title>
+    <lib:ISBN>978-0-00-1030</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author31"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow9">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member10"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-19</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-02</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member10">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member10 Name</lib:name>
+    <lib:email>member10@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author13">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Emily Brontë</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book25">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Alchemist</lib:title>
+    <lib:ISBN>978-0-00-1024</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1987</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author25"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book7">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Catcher in the Rye</lib:title>
+    <lib:ISBN>978-0-00-1006</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1954</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author7"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher6">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Scholastic</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book5">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Moby-Dick</lib:title>
+    <lib:ISBN>978-0-00-1004</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1978</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author5"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow28">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member9"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-26</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-11</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book23">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>A Tale of Two Cities</lib:title>
+    <lib:ISBN>978-0-00-1022</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author23"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book43">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Gone Girl</lib:title>
+    <lib:ISBN>978-0-00-1042</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author43"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher3"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow1">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member2"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-03</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-17</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow8">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member9"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-17</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-31</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow23">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member4"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-16</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-01</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre8">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Philosophy</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre1">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Fiction</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author22">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Gabriel García Márquez</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book1">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>To Kill a Mockingbird</lib:title>
+    <lib:ISBN>978-0-00-1000</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1961</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author1"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow15">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member16"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-31</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-14</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#librarian5">
+    <rdf:type rdf:resource="http://example.org/library#Librarian"/>
+    <lib:name>Librarian5 Name</lib:name>
+    <lib:email>librarian5@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#title">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author31">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Matt Haig</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book21">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Dracula</lib:title>
+    <lib:ISBN>978-0-00-1020</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1966</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author21"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher5"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow56">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member17"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-22</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-06</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow35">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member16"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-11</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-25</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow60">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member1"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-30</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-14</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow16">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member17"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-02</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-16</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow58">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member19"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-26</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-10</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow57">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member18"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-24</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-08</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author20">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Dante Alighieri</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre3">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Fantasy</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author39">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Sally Rooney</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author45">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Mark Manson</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member19">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member19 Name</lib:name>
+    <lib:email>member19@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member9">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member9 Name</lib:name>
+    <lib:email>member9@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member1">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member1 Name</lib:name>
+    <lib:email>member1@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow14">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member15"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-29</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-12</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow19">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member20"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-08</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-22</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow32">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member13"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-05</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-19</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book42">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Fault in Our Stars</lib:title>
+    <lib:ISBN>978-0-00-1041</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1957</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author42"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member8">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member8 Name</lib:name>
+    <lib:email>member8@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book33">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Thinking, Fast and Slow</lib:title>
+    <lib:ISBN>978-0-00-1032</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1956</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author33"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher1"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Librarian">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author41">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Madeline Miller</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow36">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member17"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-13</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-27</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book26">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>One Hundred Years of Solitude</lib:title>
+    <lib:ISBN>978-0-00-1025</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1980</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author26"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher2"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow2">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member3"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-05</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-19</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow21">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member2"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-12</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-26</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member17">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member17 Name</lib:name>
+    <lib:email>member17@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre7">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Biography</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author32">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Frank Herbert</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member3">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member3 Name</lib:name>
+    <lib:email>member3@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author16">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Charles Dickens</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher5">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Macmillan Publishers</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#email">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author26">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Yann Martel</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author23">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Ernest Hemingway</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author40">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Celeste Ng</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author38">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Gillian Flynn</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Library">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author7">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>J.D. Salinger</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member13">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member13 Name</lib:name>
+    <lib:email>member13@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher4">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Hachette Book Group</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow18">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member19"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-06</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-20</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author3">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Jane Austen</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre5">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Romance</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow53">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member14"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-16</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-30</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow54">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member15"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian5"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-18</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-02</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member14">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member14 Name</lib:name>
+    <lib:email>member14@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#librarian3">
+    <rdf:type rdf:resource="http://example.org/library#Librarian"/>
+    <lib:name>Librarian3 Name</lib:name>
+    <lib:email>librarian3@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member11">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member11 Name</lib:name>
+    <lib:email>member11@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publishYear">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow50">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member11"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian1"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-10</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-24</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member2">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member2 Name</lib:name>
+    <lib:email>member2@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow43">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member4"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-27</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-10</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow46">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member7"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-02</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-16</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow51">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member12"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian2"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-12</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-04-26</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#containsBook">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Library"/>
+    <rdfs:range rdf:resource="http://example.org/library#Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher7">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Oxford University Press</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#ISBN">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author30">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Tara Westover</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre6">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Historical</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author29">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Daniel Kahneman</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow38">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member19"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian4"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-17</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-31</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre2">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Science Fiction</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book39">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>Becoming</lib:title>
+    <lib:ISBN>978-0-00-1038</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1968</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author39"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher7"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#book22">
+    <rdf:type rdf:resource="http://example.org/library#Book"/>
+    <lib:title>The Odyssey</lib:title>
+    <lib:ISBN>978-0-00-1021</lib:ISBN>
+    <lib:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</lib:publishYear>
+    <lib:hasAuthor rdf:resource="http://example.org/library#author22"/>
+    <lib:publishedBy rdf:resource="http://example.org/library#publisher6"/>
+    <lib:hasGenre rdf:resource="http://example.org/library#genre2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publishedBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#Book"/>
+    <rdfs:range rdf:resource="http://example.org/library#Publisher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author6">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Leo Tolstoy</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrow22">
+    <rdf:type rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <lib:borrowedBy rdf:resource="http://example.org/library#member3"/>
+    <lib:processedBy rdf:resource="http://example.org/library#librarian3"/>
+    <lib:borrowDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-14</lib:borrowDate>
+    <lib:returnDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-28</lib:returnDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member20">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member20 Name</lib:name>
+    <lib:email>member20@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre10">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Self-Help</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author34">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Michelle Obama</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member5">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member5 Name</lib:name>
+    <lib:email>member5@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author2">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>George Orwell</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author9">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Aldous Huxley</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author44">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Charles Duhigg</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher1">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>Penguin Books</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author21">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Paulo Coelho</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author5">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Herman Melville</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#genre4">
+    <rdf:type rdf:resource="http://example.org/library#Genre"/>
+    <lib:name>Mystery</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#member16">
+    <rdf:type rdf:resource="http://example.org/library#Member"/>
+    <lib:name>Member16 Name</lib:name>
+    <lib:email>member16@library.com</lib:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author19">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Homer</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author17">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Victor Hugo</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Member">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#author14">
+    <rdf:type rdf:resource="http://example.org/library#Author"/>
+    <lib:name>Oscar Wilde</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#publisher2">
+    <rdf:type rdf:resource="http://example.org/library#Publisher"/>
+    <lib:name>HarperCollins</lib:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#borrowedBy">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://example.org/library#BorrowTransaction"/>
+    <rdfs:range rdf:resource="http://example.org/library#Member"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Author">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/library#Book">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+</rdf:RDF>
